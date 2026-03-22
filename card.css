@@ -15,7 +15,7 @@
 }
 
 .card-flower {
-  width: 220px;           /* plus petit */
+  width: 220px;           
   border-radius: 15px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@
 
 .card-flower img {
   width: 100%;
-  height: 150px;          /* image moins haute */
+  height: 150px;         
   object-fit: cover;
 }
 
