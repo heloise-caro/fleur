@@ -1,0 +1,102 @@
+@import url("css/banner.css");
+@import url("css/containers.css");
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-title {
+    color: #e85d8f;
+    text-align: center;
+    margin: 40px 0 30px;
+    font-size: 2rem;
+}
+
+/* Style des cards (cases) */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 25px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(232, 93, 143, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(232, 93, 143, 0.15);
+}
+
+.card h2 {
+    color: #e85d8f;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-left: 4px solid #e85d8f;
+    padding-left: 15px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #f5a3c1;
+}
+
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #e85d8f;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f5a3c1;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #e85d8f;
+}
+
+.bouton-rose {
+    background: #e85d8f;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.bouton-rose:hover {
+    background: #c73ee6;
+    transform: scale(1.02);
+}
+
